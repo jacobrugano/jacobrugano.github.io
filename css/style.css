@@ -39,3 +39,31 @@ img {
   float: left;
   background-color: yellow-green;
 }
+.column {
+  width: 350px;
+  float: right;
+}
+#line1 {
+  border-left: 4px solid red;
+  border-right: 4px solid blue;
+  border-top: 6px solid orange;
+  border-bottom: 8px solid black;
+  padding: 6px;
+  margin: 20px;
+  background-color: #C6CAE3;
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-color: white;
+
+  }
+.column {
+  width: 520px;
+  padding: 15px;
+}
