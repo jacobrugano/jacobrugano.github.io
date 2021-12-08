@@ -16,3 +16,26 @@ h2{
   font-style: italic;
   font-size: 18px;
 }
+#line1{
+  color: black;
+}
+.wild-animals{
+  color: black;
+}
+img {
+  border-radius: 110%;
+  transform: scaleX(-1);
+  padding: 0 6px;
+  float: left;
+  width: 44.99999%;
+}
+.sidebar {
+  width: 30%;
+  float: right;
+  background-color: #465193;
+}
+.sidebar{
+  width: 50%;
+  float: left;
+  background-color: yellow-green;
+}
